@@ -1,0 +1,21 @@
+{
+	"name": "select",
+	"description": "select",
+	"repository": "voehl/select",
+	"private": true,
+	"version": "1.0.0",
+	"author": {
+		"name": "Niklas Vöhl"
+	},
+	"dependencies": {
+		"each": "voehl/each",
+		"flatten": "voehl/flatten"
+	},
+	"devDependencies": {
+		"mocha": "^3.1.2"
+	},
+	"main": "select.js",
+	"scripts": {
+		"test": "mocha --ui tdd test"
+	}
+}
